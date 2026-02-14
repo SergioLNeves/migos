@@ -6,7 +6,7 @@ import (
 	"github.com/samber/do"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/SergioLNeves/auth-session/internal/domain"
+	"github.com/SergioLNeves/migos/internal/domain"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/SergioLNeves/auth-session/internal/config"
-	"github.com/SergioLNeves/auth-session/internal/storage"
+	"github.com/SergioLNeves/migos/internal/config"
+	"github.com/SergioLNeves/migos/internal/storage"
 	"github.com/samber/do"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

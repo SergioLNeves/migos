@@ -5,7 +5,7 @@
 package mock
 
 import (
-	"github.com/SergioLNeves/auth-session/internal/domain"
+	"github.com/SergioLNeves/migos/internal/domain"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -43,7 +43,7 @@ import (
     "github.com/samber/do"
 
     // 3. Pacotes internos
-    "github.com/SergioLNeves/auth-session/internal/domain"
+    "github.com/SergioLNeves/migos/internal/domain"
 )
 ```
 

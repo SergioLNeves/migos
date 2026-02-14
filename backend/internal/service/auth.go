@@ -10,9 +10,9 @@ import (
 	"github.com/samber/do"
 	"go.uber.org/zap"
 
-	"github.com/SergioLNeves/auth-session/internal/config"
-	"github.com/SergioLNeves/auth-session/internal/domain"
-	"github.com/SergioLNeves/auth-session/internal/pkg/logging"
+	"github.com/SergioLNeves/migos/internal/config"
+	"github.com/SergioLNeves/migos/internal/domain"
+	"github.com/SergioLNeves/migos/internal/pkg/logging"
 )
 
 type AuthServiceImpl struct {

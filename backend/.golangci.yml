@@ -50,7 +50,7 @@ formatters:
       simplify: true
     goimports:
       local-prefixes:
-        - module github.com/SergioLNeves/auth-session
+        - module github.com/SergioLNeves/migos
   exclusions:
     generated: lax
     paths:

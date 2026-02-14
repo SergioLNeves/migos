@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/SergioLNeves/auth-session/internal/domain"
-	"github.com/SergioLNeves/auth-session/internal/pkg/logging"
-	mockpkg "github.com/SergioLNeves/auth-session/mock"
+	"github.com/SergioLNeves/migos/internal/domain"
+	"github.com/SergioLNeves/migos/internal/pkg/logging"
+	mockpkg "github.com/SergioLNeves/migos/mock"
 )
 
 func TestMain(m *testing.M) {

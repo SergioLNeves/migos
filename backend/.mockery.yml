@@ -13,19 +13,19 @@ require-template-schema-exists: true
 template: testify
 template-schema: '{{.Template}}.schema.json'
 packages:
-  github.com/SergioLNeves/auth-session/internal/domain:
+  github.com/SergioLNeves/migos/internal/domain:
     config:
       all: true
       recursive: true
-  github.com/SergioLNeves/auth-session/internal/repository:
+  github.com/SergioLNeves/migos/internal/repository:
     config:
       all: true
       recursive: true
-  github.com/SergioLNeves/auth-session/internal/service:
+  github.com/SergioLNeves/migos/internal/service:
     config:
       all: true
       recursive: true
-  github.com/SergioLNeves/auth-session/internal/storage:
+  github.com/SergioLNeves/migos/internal/storage:
     config:
       all: true
       recursive: true

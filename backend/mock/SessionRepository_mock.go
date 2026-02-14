@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/SergioLNeves/auth-session/internal/domain"
+	"github.com/SergioLNeves/migos/internal/domain"
 	"github.com/google/uuid"
 	mock "github.com/stretchr/testify/mock"
 )

@@ -1,0 +1,33 @@
+services:
+  api:
+    container_name: migos-api
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - sqlite_data:/app/data
+    environment:
+      - ENV=production
+      - PORT=8080
+      - LOG_LEVEL=debug
+      - PRIVATE_KEY_PATH=private-key.pem
+      - PUBLIC_KEY_PATH=public-key.pem
+      - DB_PATH=/app/data/auth-session.db
+      - DB_MAX_CONN=10
+      - DB_MAX_IDLE=5
+      - DB_MAX_LIFETIME=1h
+      - ACCESS_TOKEN_EXPIRY=60
+      - REFRESH_TOKEN_EXPIRY=10080
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:
+    driver: local

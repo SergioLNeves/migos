@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/SergioLNeves/auth-session/internal/domain"
+	"github.com/SergioLNeves/migos/internal/domain"
 )
 
 var logger *zap.Logger

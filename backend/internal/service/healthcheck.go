@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/SergioLNeves/auth-session/internal/domain"
-	"github.com/SergioLNeves/auth-session/internal/storage"
+	"github.com/SergioLNeves/migos/internal/domain"
+	"github.com/SergioLNeves/migos/internal/storage"
 	"github.com/samber/do"
 )
 

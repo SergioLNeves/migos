@@ -9,10 +9,10 @@ import (
 	"github.com/labstack/echo/v4"
 	"go.uber.org/zap"
 
-	"github.com/SergioLNeves/auth-session/internal/config"
-	"github.com/SergioLNeves/auth-session/internal/domain"
-	errorpkg "github.com/SergioLNeves/auth-session/internal/pkg/error"
-	"github.com/SergioLNeves/auth-session/internal/pkg/logging"
+	"github.com/SergioLNeves/migos/internal/config"
+	"github.com/SergioLNeves/migos/internal/domain"
+	errorpkg "github.com/SergioLNeves/migos/internal/pkg/error"
+	"github.com/SergioLNeves/migos/internal/pkg/logging"
 )
 
 func SessionAuth(

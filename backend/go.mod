@@ -4,7 +4,6 @@ go 1.25.7
 
 require (
 	github.com/Netflix/go-env v0.1.2
-	github.com/SergioLNeves/auth-session v0.0.0-20260212193624-18b67a2ab091
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.30.1

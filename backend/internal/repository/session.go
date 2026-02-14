@@ -10,8 +10,8 @@ import (
 	"github.com/samber/do"
 	"gorm.io/gorm"
 
-	"github.com/SergioLNeves/auth-session/internal/domain"
-	"github.com/SergioLNeves/auth-session/internal/storage"
+	"github.com/SergioLNeves/migos/internal/domain"
+	"github.com/SergioLNeves/migos/internal/storage"
 )
 
 var TableSession = "session"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/Netflix/go-env"
-	"github.com/SergioLNeves/auth-session/internal/domain"
+	"github.com/SergioLNeves/migos/internal/domain"
 	"github.com/joho/godotenv"
 )
 

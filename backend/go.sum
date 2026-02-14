@@ -1,7 +1,5 @@
 github.com/Netflix/go-env v0.1.2 h1:0DRoLR9lECQ9Zqvkswuebm3jJ/2enaDX6Ei8/Z+EnK0=
 github.com/Netflix/go-env v0.1.2/go.mod h1:WlIhYi++8FlKNJtrop1mjXYAJMzv1f43K4MqCoh0yGE=
-github.com/SergioLNeves/auth-session v0.0.0-20260212193624-18b67a2ab091 h1:4iW7q9OVzBw5dDvmXkAMEBmivXVvMC7HL+0IQ7VIx/Q=
-github.com/SergioLNeves/auth-session v0.0.0-20260212193624-18b67a2ab091/go.mod h1:S/o2KGPZuF+v85+0EQCw9uPNC1p+h4EQ/MxeG+rIrG0=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gabriel-vasile/mimetype v1.4.12 h1:e9hWvmLYvtp846tLHam2o++qitpguFiYCKbn0w9jyqw=

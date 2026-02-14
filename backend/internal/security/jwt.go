@@ -9,8 +9,8 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/samber/do"
 
-	"github.com/SergioLNeves/auth-session/internal/config"
-	"github.com/SergioLNeves/auth-session/internal/domain"
+	"github.com/SergioLNeves/migos/internal/config"
+	"github.com/SergioLNeves/migos/internal/domain"
 )
 
 type JWTProvider struct {
